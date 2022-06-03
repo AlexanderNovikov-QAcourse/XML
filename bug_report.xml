@@ -1,1 +1,14 @@
-
+<?xml version="1.0"?>
+<BUG>
+ <id>1</id>
+ <Summary>When user attempts to create a report, the system displays an error message.</Summary>
+ <Description>When user attempts to prepare a quaterly report, the system displays the message "Something went wrong. Please, contact Service Desk".<br />Reproduced on Windows 11, Google Chrome 102.0.5005.63 (Official Build) (64-bit).<br />Expected result: correct report.<br /> Actual result: incorrect report. The fields of the report are filled with null values.</Description>
+<Steps_to_reproduce>1. Open the application. 2. Select the Report function. 3. Select the report period. 4. Click the "Prepare report" button"</Steps_to_reproduce>
+<Severity>Major</Severity>
+<Priority>Normal</Priority>
+<Reproducible>Always</Reproducible>
+<Symptom>Unexpected behavior</Symptom>
+<Workaround>No</Workaround>
+<Attachments> link1, link2, link3</Attachments>
+<Status>Submitted</Status>
+</BUG>
